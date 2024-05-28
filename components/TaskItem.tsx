@@ -31,7 +31,7 @@ const TaskItem: React.FC<TaskItemProps> = ({ task }) => {
           <Text style={styles.taskHeading}>
             Task {task.id}
           </Text>
-          <Text style={{ textDecorationLine: task.completed ? 'line-through' : 'none' }}>
+          <Text>
             {task.title}
           </Text>
           <View style={styles.btnGroup}>

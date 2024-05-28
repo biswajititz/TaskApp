@@ -31,7 +31,7 @@ const CompleteTask: React.FC = () => {
   return (
     <View style={styles.container}>
       <View style={styles.allTask}>
-        <Text style={styles.heading}>Complete Task</Text>
+        <Text style={styles.heading}>Completed Task</Text>
       </View>
       <FlatList
         data={tasks}
